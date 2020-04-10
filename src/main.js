@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// eslint-disable-next-line
 import { Route, NavLink, HashRouter, BrowserRouter } from "react-router-dom";
 import Home from "./home";
 import CatFacts from "./cat-facts";

@@ -5,10 +5,14 @@ body {
   font-size: 18px;
 }
 
+#container {
+  max-width: 92%;
+  margin: 0 auto;
+}
+
 @media (min-width: 48em) {
   #container {
-    width: 85%;
-    margin: 0 auto;
+    max-width: 85%;
   }
 }
 
