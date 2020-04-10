@@ -1,9 +1,15 @@
 body {
-  padding: 20px;
   margin: 0;
   color: #4d574e;
   font-family: "DM Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
+}
+
+@media (min-width: 48em) {
+  #container {
+    width: 85%;
+    margin: 0 auto;
+  }
 }
 
 h2,
@@ -95,4 +101,6 @@ p {
   top: 0;
   z-index: -1;
   opacity: 0.75;
+  object-fit: cover;
+  object-position: top;
 }
