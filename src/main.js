@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, NavLink, HashRouter, BrowserRouter } from "react-router-dom";
 import Home from "./home";
 import CatFacts from "./cat-facts";
 import DogFacts from "./dog-facts";
@@ -8,7 +8,7 @@ import "./index.css";
 class Main extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div>
           <h1>Fun Animal Facts</h1>
           <ul className="navbar">
@@ -30,7 +30,7 @@ class Main extends Component {
             <Route path="/dogs" component={DogFacts} />
           </div>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
