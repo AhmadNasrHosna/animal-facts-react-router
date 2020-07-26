@@ -1,8 +1,8 @@
 # Animal Facts (SPA)
 Animal Facts is a simple single-page app using React. 
-Live: https://animalfacts.netlify.com/
+Live: https://animalfacts.netlify.com
 
-[](/animal-facts-banner.png)
+![](/animal-facts-banner.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
